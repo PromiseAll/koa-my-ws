@@ -1,6 +1,6 @@
 # koa-my-ws
 
-简单封装 websocket,集成心跳检测,广播消息等功能
+基于 koa2 简单封装 websocket,集成心跳检测,广播消息等功能
 
 ### 安裝
 
@@ -44,7 +44,7 @@ app.listen(3000);
 - wsOptions(可选) 配置选项
   - heartbeat 是否开启心跳检测 默认 true
   - checkTime 检测心跳轮询时间 默认 30 秒 单位 毫秒
-  - ...options 合并 ws 的基本配置 参考 api [options](https://github.com/websockets/ws/blob/master/doc/ws.md)
+  - ...options 合并 ws 的基本配置 参考 api [options](https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketaddress-protocols-options)
 
 #### upgradeWs(ctx[,clientId][,state])
 
