@@ -1,6 +1,6 @@
 {
   "name": "koa-my-ws",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "基于 koa2 简单封装 websocket,集成心跳检测,广播消息等功能",
   "main": "./dist/index.js",
   "scripts": {},
@@ -28,5 +28,10 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.0"
-  }
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ]
 }

@@ -20,7 +20,7 @@ app.use(createWsServer({ checkTime: 3000 }));
 
 const router = new Router();
 router.get("/ws/:id", async (ctx, next) => {
-  const { id } = ctx.query;
+  const { id } = ctx.params;
   // 升级协议 返回当前ws对象
   let ws = await upgradeWs(ctx, id);
   if (ws) {
