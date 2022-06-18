@@ -1,0 +1,29 @@
+{
+  "name": "koa-my-ws",
+  "version": "1.0.0",
+  "description": "简单封装websocket,集成心跳检测,广播消息等功能",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PromiseAll/koa-my-ws"
+  },
+  "keywords": [
+    "koa2",
+    "koa",
+    "ws",
+    "websocket",
+    "upgrade",
+    "broadcast",
+    "message"
+  ],
+  "author": "PromiseAll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PromiseAll/koa-my-ws/issues"
+  },
+  "homepage": "https://github.com/PromiseAll/koa-my-ws#readme",
+  "dependencies": {
+    "koa-easy-ws": "^2.1.0"
+  }
+}
